@@ -50,6 +50,7 @@ header p{
     margin-bottom: 2.5em;
 }
 header a{
+    width: 100%;
     background: #F56A01;
     box-shadow: -3.07514px 4.61272px 4.61272px rgba(0, 0, 0, 0.25);
     padding: .9em;
