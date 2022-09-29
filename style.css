@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 body{
     font-family: 'Outfit', sans-serif;
@@ -13,11 +14,12 @@ h2,h1,a{
     font-family: 'Aclonica', sans-serif;
 }
 .container{
-    max-width: 1000px;
+    width: min(90%,62.5rem);
     margin: auto;
 }
 header{
     position: relative;
+    width: 100%;
     background-color: #286E5B;
     color: white;
     display: flex;
@@ -52,7 +54,7 @@ header p{
 header a{
     width: 100%;
     background: #F56A01;
-    box-shadow: -3.07514px 4.61272px 4.61272px rgba(0, 0, 0, 0.25);
+    box-shadow: 0.19219625em 0.3125em  0.3125em  rgba(0, 0, 0, 0.25);
     padding: .9em;
     color: white;
     border-radius: 4.61272px;
@@ -94,7 +96,7 @@ text-transform: uppercase;
     font-family: 'Aclonica';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 120%;
 /* or 19px */
 
@@ -127,4 +129,64 @@ text-transform: uppercase;
 .five{
     background-image: url(./assets/Stethoscope.png);
     padding: 2em;
+}
+
+/*children information*/
+.info
+{
+    border: 1px solid red;
+    background-color: #286E5B;
+    color:white;
+    padding: 1em;
+    padding-bottom: 5em;
+
+}
+.info h2{
+    text-align: center;
+    font-family: 'Aclonica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21.8283px;
+    line-height: 120%;
+    /* or 26px */
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 3em;
+}
+.info .dot{
+    position: relative;
+    
+    top: .5em;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #F56A01;
+    border-radius: 50%;
+    
+    
+}
+.img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+.girl{
+    background-image: url(./assets/g1.png);
+    padding: 5em;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.info ul{
+    padding: 0;
+    width: 60%;
+}
+.info ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+   
+}
+.info p{
+    display: inline;
+    width: 95%;
 }
